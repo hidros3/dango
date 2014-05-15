@@ -7,7 +7,7 @@ get '/' do
   erb :index
 end
 
-post '/post' do
+get '/post' do
   erb :post
 end
 
