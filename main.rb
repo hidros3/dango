@@ -6,11 +6,3 @@ end
 get '/' do
   erb :index
 end
-
-get '/post' do
-  erb :post
-end
-
-get '/confirm' do
-  erb :confirm
-end
